@@ -28,7 +28,7 @@ public class MathUtility {
             return 1;       //khỏi mất công tính, return ngay
         
         //sống đến đây, sure n = 2..20
-        long result = 0; //cố tình
+        long result = 1; //cố tình
         for (int i = 2; i <= n; i++) 
             result *= i;
         // n! = 1.2.3.4.5....n
